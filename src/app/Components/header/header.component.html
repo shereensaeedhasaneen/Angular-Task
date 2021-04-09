@@ -1,0 +1,78 @@
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/logo.PNG"></a>
+          <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="dark-blue-text"><i
+              class="fas fa-bars fa-1x"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="movies" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Movies
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="movies">
+                      <li><a class="dropdown-item"  [routerLink]="['/movies/popular']"  href="#">Popular</a></li>
+                      <li><a class="dropdown-item"  [routerLink]="['/movies/topRated']" href="#">Top Rated</a></li>
+                    </ul>
+    
+                  </li>
+
+               <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="tvshown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      TV Shows
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tvshown"  id="tvshownmenu">
+                      <li><a class="dropdown-item" href="#">Popular</a></li>
+                      <li><a class="dropdown-item" href="#">Airing Today</a></li>
+                      <li><a class="dropdown-item" href="#">On TV</a></li>
+                      <li><a class="dropdown-item" href="#">Top Rated</a></li>
+                    </ul>
+    
+                  </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="peaple" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Peaple
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="peaple">
+                  <li><a class="dropdown-item" href="#">Popular Peaple</a></li>
+
+                </ul>
+
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="more" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="more" >
+                    <li><a class="dropdown-item" href="#">Discussions</a></li>
+                    <li><a class="dropdown-item" href="#"> Leaderboard</a></li>
+                    <li><a class="dropdown-item" href="#">Support</a></li>
+                    <li><a class="dropdown-item" href="#">API</a></li>
+
+                </ul>
+
+              </li>
+
+              
+            </ul>
+            <div class="d-flex">
+                <i class="fas fa-plus"></i>
+                <svg width="70" height="70">
+                    <rect width="45" height="40" y="10" style="fill:#032541 ;stroke-width:1;stroke:white" />
+                    <text x="12" y="35" fill="white" class="fw-bold">EN</text>  
+                </svg>
+                <i class="fas fa-bell"></i>
+                <svg height="70" width="70">
+                    <circle cx="20" cy="30" r="20"  stroke-width="3" fill="#0177D2" />
+                    <text x="15" y="35" fill="white" class="fw-bold">S</text>  
+                </svg>
+                <i class="fas fa-search"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--------------end header --------------------------------------->
+ 

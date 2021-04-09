@@ -1,0 +1,163 @@
+.background{
+    position: relative;
+}
+.background:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: #043153;
+    opacity: 0.9;
+  }
+
+  .welcome{
+      position: absolute;
+      top:20%;
+      color:white;
+     font-weight: bolder;
+  }
+  .welcome h1{
+      font-size: 60px;
+  }
+
+  /***************** end first row *******************/
+
+  /************** second row*******************/
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+
+  ::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 10px;
+    background: rgba(105, 103, 103, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(17, 16, 16, 0.5); 
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+}
+.cards{
+    border-radius: 25px;
+}
+.cards img{
+    border-radius: 25px;
+   position: relative;
+}
+
+.cards svg{
+ 
+   position: absolute;
+    top:65%;
+    padding-left: 20px;
+   
+}
+.cards svg text{
+    font-size: 12px;
+}
+.cards .card_menu{
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(170, 165, 165,0.6);
+  width: 30px;
+  height: 30px;
+  top:3%;
+  left: 80%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.cards .card_menu :hover{
+    background-color: rgb(94, 149, 231);
+    border-radius: 50%;
+    width: 30px;
+  height: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+.popular_movies .buttons{
+    border-radius: 50px;
+    background: none;
+    border: 1px solid #032541;
+    margin-left: 20px;
+}
+.popular_movies .buttons button{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 30px 12px 30px;
+    font-weight: bold;
+    color: #032541;
+    font-size: 15px;
+}
+
+.popular_movies .buttons  .active{
+border-radius: 50px;
+background-color: #032541;
+color: white//linear-gradient(to right, #ADF9CA 0%, #3BDCB0 100%);
+
+}
+
+
+
+
+@media (max-width:460px){
+    .toggel{
+        flex-direction: column;
+    }
+
+}
+/*********** third row *********************/
+.video_containers{
+    position: relative;
+}
+.video_card , .video_containers .toggel{
+    position: absolute;
+    padding-left: 6%;
+   
+}
+
+.video_card{
+    top:8%;
+    transition: all .2s ease-in-out;
+}
+.scale_card{
+    transition: all .2s ease-in-out;
+}
+.scale_card:hover { transform: scale(1.1); }
+.video_containers .buttons{
+    border-radius: 50px;
+    background: none;
+    border: 1px solid #ADF9CA;
+    margin-left: 20px;
+}
+.video_containers .buttons button{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 30px 12px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+.video_containers .buttons  .active{
+border-radius: 50px;
+background-image: linear-gradient(to right, #ADF9CA 0%, #3BDCB0 100%);
+color: #032541;
+
+}
+
+
+@media (max-width:460px){
+    .toggel{
+        flex-direction: column;
+    }
+}
+
+
+
+

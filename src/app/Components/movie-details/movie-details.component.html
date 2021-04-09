@@ -1,0 +1,25 @@
+<app-header></app-header>
+
+<div class="container-fluid">
+    <div class="row bg-dark">
+        <img [src]="movie.poster_path" class="details_container">
+        <div class="col-sm-3 column">
+            <img [src]="movie.poster_path" width="90%" height="500">
+        </div>
+
+        <div class="col-sm-7 sec_column">
+           <h1>{{movie.title}} ( {{movie.release_date}} )</h1>
+           <svg height="90" width="150">
+            <circle cx="40" cy="40" r="30" stroke="#21D07A" stroke-width="3" fill="#081C22" />
+            <text x="24" y="45" fill="white" class="fw-bold">{{movie.vote_average}}%</text>  
+            <text x="80" y="30" fill="white" class="fw-bold">User</text>  
+            <text x="80" y="55" fill="white" class="fw-bold">Score</text>  
+         </svg>
+
+         <h3 class="mb-4 mt-3">OverView</h3>
+         <h6>{{movie.overview}}</h6>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

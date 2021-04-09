@@ -1,0 +1,39 @@
+.cards{
+    border-radius: 25px;
+}
+.cards img{
+    border-radius: 25px;
+   position: relative;
+}
+
+.cards svg{
+ 
+   position: absolute;
+    top:68%;
+    padding-left: 20px;
+   
+}
+.cards svg text{
+    font-size: 12px;
+}
+.cards .card_menu{
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(170, 165, 165,0.6);
+  width: 30px;
+  height: 30px;
+  top:3%;
+  left: 60%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.cards .card_menu :hover{
+    background-color: rgb(94, 149, 231);
+    border-radius: 50%;
+    width: 30px;
+  height: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+

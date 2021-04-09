@@ -1,0 +1,47 @@
+.details_container{
+    position: relative;
+    opacity: 0.4;
+}
+.column ,.sec_column{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+
+}
+
+.sec_column{
+    margin-top: 18%;
+    margin-left: 29%;
+    color: white;
+    
+}
+
+.sec_column svg text{
+    font-size: 17px;
+}
+ 
+@media (max-width:575px){
+    .sec_column{
+        margin-left: 0;
+        color: white;      
+    }
+    .column{
+        display: none;
+    }  
+}
+
+@media(max-width:499px)
+{
+    .sec_column{
+        margin-left: 0;
+        color: white;
+        position: sticky;
+        
+    }
+    .column{
+        display: none;
+    }
+    .row{
+        background-color: #032541 !important;
+    }
+}

@@ -1,0 +1,59 @@
+
+/*********************** start header *************************/
+nav{
+  background-color: #032541 !important;
+}
+
+nav ul li a{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+nav ul li{
+  margin-left: 15px;
+}
+nav .fas , nav p{
+  color: white;
+  font-size: 20px;
+  padding-right: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+nav ul li a:hover +ul{
+  display: block;
+  ul li a{
+    color: #032541;
+    display: block;
+  }
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+ul li .dropdown-item{
+  color: #032541 !important;
+}
+
+/**************************** end header ***********************/
+
+.fa-1x {
+  font-size: 50px;
+  margin-top: 0 !important;
+  padding: 7px 17px 5px ;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+
+
+  .navbar-toggler{
+    border: none !important;
+    outline: none !important;
+   
+    text-align: center;
+
+  }
+
+  
